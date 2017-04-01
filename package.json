@@ -1,0 +1,33 @@
+{
+  "name": "ivi",
+  "date": "2017.01.26",
+  "version": "1.5.10",
+  "description": "ivi is an online cinema with video content that has a total duration of 20 hours. A large part of the ivi collection is available to users free of charge.",
+  "author": {
+    "name": "bidalote"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bidalote/ivi.git"
+  },
+  "config": {
+    "type": "app",
+    "category": "apps",
+    "backgroundColor": "#171717",
+    "name": "ivi",
+    "legacy": true,
+    "description": "ivi is an online cinema with video content that has a total duration of 20 hours. A large part of the ivi collection is available to users free of charge.",
+    "icons": {
+      "paths": {
+        "480": "img/480/",
+        "576": "img/576/",
+        "720": "img/720/",
+        "1080": "img/1080/"
+      },
+      "states": {
+        "normal": "normal.png",
+        "active": "active.png"
+      }
+    }
+  }
+}
